@@ -12,12 +12,12 @@ Customize asset layout for Computer Assets
 
 Generate an API key to be used by the tool
 
-#Setup - Syncro
+# Setup - Syncro
 Add a 'Web Link' custom field for Syncro Devices named 'Hudu'
 
 Generate an API key to be used by the tool
 
-#Setup - Tool
+# Setup - Tool
 Populate the host and API keys in web.config
 Compile tool and run to test
 Create a scheduled task to run the tool daily or as frequently as required
