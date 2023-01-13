@@ -19,5 +19,5 @@ Generate an API key to be used by the tool
 
 # Setup - Tool
 Populate the host and API keys in web.config
-Compile tool and run to test
+Compile tool and run to test  
 Create a scheduled task to run the tool daily or as frequently as required
