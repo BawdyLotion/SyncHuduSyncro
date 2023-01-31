@@ -35,8 +35,8 @@ foreach (var syncroDevice in syncro.AllAssets)
 
 
     //Update syncro asset to link to hudu. Only run if not set/has changed
-    if (string.IsNullOrEmpty(syncroDevice.properties.Hudu) || syncroDevice.properties.Hudu != syncroUrl)    
-        syncro.SetHuduAssetLink(syncroDevice.id, $"{syncroUrl}/a/{huduDevice.slug}");
+    if (string.IsNullOrEmpty(syncroDevice.properties.Hudu) || syncroDevice.properties.Hudu != huduDevice.url)
+        syncro.SetHuduAssetLink(syncroDevice.id, huduDevice.url);
 
     //Try to get asset -> contact relation from syncro and re-create it on Hudu
     //  Note: uses asset field relations inside Hudu, NOT relation API.
